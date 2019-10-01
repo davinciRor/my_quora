@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 class AnswersController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :destroy, :update]
+  before_action :authenticate_user!, only: %i[new create destroy update]
   before_action :find_question, only: [:create]
-  before_action :find_answer, only: [:update, :destroy, :make_best]
+  before_action :find_answer, only: %i[update destroy make_best]
 
   authorize_resource
 
   respond_to :js
 
   def create
-    respond_with(@answer = @question.answers.create(answer_params.merge({ user: current_user })))
+    respond_with(@answer = @question.answers.create(answer_params.merge(user: current_user)))
   end
 
   def update
@@ -28,7 +30,7 @@ class AnswersController < ApplicationController
   def publish_answer
     ActionCable.server.broadcast(
       "answers_for_question_#{params[:question_id]}",
-      answer: @answer.as_json(include: :attachments).merge({rating: @answer.rating}).to_json
+      answer: @answer.as_json(include: :attachments).merge(rating: @answer.rating).to_json
     )
   end
 
@@ -37,6 +39,6 @@ class AnswersController < ApplicationController
   end
 
   def answer_params
-    params.require(:answer).permit(:body, attachments_attributes: [:file, :_destroy])
+    params.require(:answer).permit(:body, attachments_attributes: %i[file _destroy])
   end
 end

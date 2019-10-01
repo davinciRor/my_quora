@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Ability
   include CanCan::Ability
 
@@ -16,7 +18,6 @@ class Ability
   def guest_abilities
     can :read, :all
   end
-
 
   def user_abilities
     can :read, :all

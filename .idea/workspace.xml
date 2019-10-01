@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44e5ba6-31f8-4003-bc56-31fde51e4b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/answers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-generators.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/questions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/answers_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/confirmations_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/questions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/errors_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/packs/answers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/packs/attachments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/packs/questions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/templates/answer.jst.skim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/templates/question.jst.skim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/ability.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/concerns/attachable.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/uploaders/file_uploader.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/answers/_answer.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/answers/create.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/answers/destroy.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/answers/make_best.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/answers/update.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/attachments/_file.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/common/_errors.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/password_change.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/questions/_answers.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/questions/_question.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/questions/index.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/questions/new.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/questions/show.html.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/questions/update.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/application_responder.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -82,15 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -131,14 +64,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -218,7 +160,6 @@
         <option value="$PROJECT_DIR$/app/views/questions/_question.html.slim" />
         <option value="$PROJECT_DIR$/app/views/common/_errors.html.slim" />
         <option value="$PROJECT_DIR$/app/helpers/errors_helper.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/javascript/templates/answer.jst.skim" />
         <option value="$PROJECT_DIR$/app/javascript/templates/question.jst.skim" />
@@ -228,6 +169,7 @@
         <option value="$PROJECT_DIR$/app/views/answers/create.js.erb" />
         <option value="$PROJECT_DIR$/app/javascript/packs/answers.js" />
         <option value="$PROJECT_DIR$/app/javascript/packs/application.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -246,50 +188,6 @@
             <path>
               <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="packs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="answers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_quora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_quora" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="questions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,24 +332,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569948133695</updated>
-      <workItem from="1569948134958" duration="8805000" />
+      <workItem from="1569948134958" duration="8920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8805000" />
+    <option name="totallyTimeSpent" value="8920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298647" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -708,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -774,11 +665,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>

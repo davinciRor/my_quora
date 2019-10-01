@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class QuestionsController < ApplicationController
-  before_action :authenticate_user!, except: [:index, :show]
-  before_action :find_question, only: [:show, :edit, :update, :destroy,]
+  before_action :authenticate_user!, except: %i[index show]
+  before_action :find_question, only: %i[show edit update destroy]
   before_action :build_answer,  only: [:show]
 
   authorize_resource

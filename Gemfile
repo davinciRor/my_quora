@@ -37,7 +37,7 @@ gem 'jquery-rails'
 gem 'bootstrap-generators'
 gem 'skim'
 gem 'remotipart'
-
+gem 'rubocop-rails'
 
 group :development, :test do
   gem 'faker'
