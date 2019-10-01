@@ -1,0 +1,24 @@
+.card.question data-question-id="#{question.id}" id=dom_id(question)
+  .card-block
+    h4.card-title
+      = question.title
+    p.card-text
+      = question.body
+    = link_to question_path(question), class: 'btn btn-primary show-question-link', id: "show-question-link-#{question.id}"
+      span.glyphicon.glyphicon-eye-open
+    - if can?(:edit, question)
+      = form_for question, method: :patch, remote: true, html: { id: "edit-question-#{question.id}" } do |f|
+        .form-group
+          = f.label :title
+          = f.text_field :title, class: 'form-control'
+        .form-group
+          = f.label :body
+          = f.text_area :body, class: 'form-control'
+        .actions
+          = f.submit 'Save', class: 'btn btn-warning'
+    - if can?(:destroy, question)
+      = link_to question_path(question), method: :delete, class: 'btn btn-danger delete-question-link', id: "delete-question-link-#{question.id}"
+        span.glyphicon.glyphicon-trash
+    - if can?(:edit, question)
+      = link_to '', class: 'edit-question-link btn btn-warning'
+        span.glyphicon.glyphicon-pencil

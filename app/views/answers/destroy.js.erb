@@ -1,0 +1,4 @@
+<% if can?(:destroy, @answer) %>
+  var id = <%= @answer.id %>;
+  $('[data-answer-id="'+ id +'"]').remove();
+<% end %>

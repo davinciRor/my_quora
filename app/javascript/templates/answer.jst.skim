@@ -1,0 +1,8 @@
+.card.answer data-answer-id="#{@answer.id}" id="answer_#{@answer.id}"
+  .card-block
+    p.card-text
+      = @answer.body
+    ul.answers-attachments
+      - for attachment in @answer.attachments
+        li
+          a href="#{attachment.file.url}" = attachment.file.url.substring(attachment.file.url.lastIndexOf('/')+1)

@@ -1,0 +1,7 @@
+.card.question data-question-id="#{@question.id}" id="question_#{@question.id}"
+    h4.card-title
+      = @question.title
+    p.card-text
+      = @question.body
+    a href="/questions/#{@question.id}" class='btn btn-primary show-question-link' id="show-question-link-#{@question.id}"
+      span.glyphicon.glyphicon-eye-open
